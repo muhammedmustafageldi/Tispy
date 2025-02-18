@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Tip {
+    var amount: Double?
+    var tipRate: Double?
+    var splitCount: Int?
+}

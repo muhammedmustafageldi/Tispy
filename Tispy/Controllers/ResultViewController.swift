@@ -9,21 +9,27 @@ import UIKit
 
 class ResultViewController: UIViewController {
 
+    @IBOutlet weak var totalLabel: UILabel!
+    @IBOutlet weak var settingsLabel: UILabel!
+    var tip: Tip?
+    var result: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // Set data to layout ->
+        if let tip = tip {
+            settingsLabel.text = "Split between \(tip.splitCount!) people, with %\(Int(tip.tipRate! * 100.0)) tip."
+        }
+        
+        if let result = result {
+            totalLabel.text = result
+        }
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func recalculatePressed(_ sender: UIButton) {
+        dismiss(animated: true)
     }
-    */
-
+    
 }
