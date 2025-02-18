@@ -11,8 +11,9 @@ Tipsy is a simple and intuitive bill-splitting and tip calculator app built with
 - Get the exact amount each person needs to pay ✅
 
 ## Demo 🎥
-<img src="https://github.com/muhammedmustafageldi/My-ScreenShots-Files/blob/main/Screnshots/Tispy/demo.gif" alt="Tispy Demo" width="250">
-
+<p align="center">
+   <img src="https://github.com/muhammedmustafageldi/My-ScreenShots-Files/blob/main/Screnshots/Tispy/demo.gif" alt="Tispy Demo" width="250">
+</p>
 
 ## How It Works 🛠
 1. Enter the total bill amount.
