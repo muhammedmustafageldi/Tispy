@@ -1,8 +1,8 @@
-# Tipsy - Bill Splitting & Tip Calculator
+# Tispy - Bill Splitting & Tip Calculator
 
 Yes, it's not tipsy, it's tispy. 😇
 
-Tipsy is a simple and intuitive bill-splitting and tip calculator app built with Swift and UIKit. Easily calculate how much each person should pay when dining out with friends!
+Tispy is a simple and intuitive bill-splitting and tip calculator app built with Swift and UIKit. Easily calculate how much each person should pay when dining out with friends!
 
 ## Features 🚀
 - Enter the bill amount 💵
